@@ -23,4 +23,14 @@ public class RestaurantServiceImpl implements RestaurantService{
 		return restaurantDao.getAllRestaurants();
 	}
 
+	@Override
+	public Restaurant getRestaurantById(int id) {
+		return restaurantDao.getRestaurantById(id);
+	}
+
+	@Override
+	public void deleteRestaurantById(int id) {
+		restaurantDao.deleteRestaurantById(id);
+	}
+
 }

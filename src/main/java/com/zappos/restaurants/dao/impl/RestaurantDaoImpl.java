@@ -28,4 +28,17 @@ public class RestaurantDaoImpl implements RestaurantDao{
 		return getCurrentSession().createQuery("from Restaurant").list();
 	}
 
+
+	@Override
+	public Restaurant getRestaurantById(int id) {
+		return (Restaurant) getCurrentSession().get(Restaurant.class, id);
+	}
+
+
+	@Override
+	public void deleteRestaurantById(int id) {
+		Restaurant restaurant = (Restaurant) getCurrentSession().load(Restaurant.class, id);
+		getCurrentSession().delete(restaurant);		
+	}
+
 }

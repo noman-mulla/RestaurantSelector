@@ -7,5 +7,9 @@ import com.zappos.restaurants.model.Restaurant;
 public interface RestaurantService {
 	
 	public List<Restaurant> getRestaurants();
+	public Restaurant getRestaurantById(int id);
+	public void deleteRestaurantById(int id);
+	
+	
 
 }

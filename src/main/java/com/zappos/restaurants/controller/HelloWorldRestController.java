@@ -21,7 +21,10 @@ public class HelloWorldRestController {
 	public String getGreetingHello(){
 		String availableEndpoints = "Welcome to Restaurant Selector - Available Endpoints \n"+
 									"1. /getRestaurants - Returns all available restuarants \n"+
-									"2. /getMenuTypes - Returns all available menu types \n";
+									"2. /getRestaurant/{id} - Returns a single restaurant having {id} \n"+
+									"3. /addRestaurant - Adds a Single Restaurant to database \n"+
+									"4. /removeRestaurant/{id} - Removes Restaurant having {id} \n"+
+									"5. /getMenuTypes - Returns all available menu types \n";
 		
 		return availableEndpoints; 
 		

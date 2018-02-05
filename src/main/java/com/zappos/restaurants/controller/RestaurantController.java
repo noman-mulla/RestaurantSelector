@@ -3,6 +3,7 @@ package com.zappos.restaurants.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,5 +24,21 @@ public class RestaurantController {
 		return restaurantService.getRestaurants(); 
 		
 	}
+	
+	@RequestMapping(value="/getRestaurant/{id}",method=RequestMethod.GET,headers="Accept=application/json",produces="application/json")
+	public Restaurant getRestaurantById(@PathVariable int id){
+		return restaurantService.getRestaurantById(id);
+		
+	}
+	
+	@RequestMapping(value="/removeRestaurant/{id}",method=RequestMethod.GET,headers="Accept=application/json",produces="application/json")
+	public void removeRestauranttById(@PathVariable int id){
+		 restaurantService.deleteRestaurantById(id);
+		
+	}
+	
+	
+	
+	
 
 }
