@@ -1,0 +1,7 @@
+---
+applications:
+ - name: RestaurantSelector
+   random-route: true
+   path: target/RestaurantSelector.war
+   memory: 256M
+   instances: 1
