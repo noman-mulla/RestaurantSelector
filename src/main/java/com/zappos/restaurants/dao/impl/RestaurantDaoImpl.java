@@ -41,4 +41,11 @@ public class RestaurantDaoImpl implements RestaurantDao{
 		getCurrentSession().delete(restaurant);		
 	}
 
+
+	@Override
+	public void addRestaurant(Restaurant restaurant) {
+		getCurrentSession().save(restaurant);
+		
+	}
+
 }

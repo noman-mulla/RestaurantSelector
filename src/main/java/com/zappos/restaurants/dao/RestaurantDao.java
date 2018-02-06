@@ -9,5 +9,6 @@ public interface RestaurantDao {
 	List<Restaurant> getAllRestaurants();
 	Restaurant getRestaurantById(int id);
 	void deleteRestaurantById(int id);
+	void addRestaurant(Restaurant restaurant);
 
 }

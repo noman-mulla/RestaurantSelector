@@ -33,4 +33,10 @@ public class RestaurantServiceImpl implements RestaurantService{
 		restaurantDao.deleteRestaurantById(id);
 	}
 
+	@Override
+	public void addRestaurant(Restaurant restaurant) {
+		restaurantDao.addRestaurant(restaurant);
+		
+	}
+
 }

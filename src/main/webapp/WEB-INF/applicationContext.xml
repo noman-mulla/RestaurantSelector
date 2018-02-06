@@ -43,17 +43,4 @@
    <bean id="persistenceExceptionTranslationPostProcessor"
     class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
 
-
-<!-- 
-This is Database setup bean
-<bean id="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-<property name="url" value="jdbc:mysql://us-cdbr-iron-east-03.cleardb.net:3306/ad_5926b5d8bf2e356"></property>
-<property name="username" value="b81ced2fb3e2e8"></property>
-<property name="password" value="6fb94614"></property>
-</bean>
-<bean id="jdbctemplate" class="org.springframework.jdbc.core.JdbcTemplate">
-<property name="dataSource" ref="ds"></property>
-</bean>
- -->
  </beans>
