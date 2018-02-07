@@ -20,7 +20,10 @@ public class MenuTypeController {
 	@RequestMapping(value="/getMenuTypes",method=RequestMethod.GET,headers="Accept=application/json",produces="application/json")
 	public List<MenuType> getMenuTypes(){
 		return menuTypeService.getMenuTypes();
-		
 	}
+	
+	
+	
+	
 
 }
