@@ -1,18 +1,18 @@
-Available endpoints 
+##Available endpoints 
 
 1. /getRestaurants - returns all restaurants from database
 
-Output :
-   [
-       {"name":"ML","id":2,"rating":4,"address":"730 South May Street",
-       "menuTypes":[
-       {"id":0,"type":"breakfast",
-       "menuItem":[
-       {"id":1,"itemName":"coffee"}
-       ]}]},
-       {"name":"ML Kitchen","id":3,"rating":5,"address":"730 South May Street",
-       "menuTypes":[]}
-     ]
+      Output :
+         [
+             {"name":"ML","id":2,"rating":4,"address":"730 South May Street",
+             "menuTypes":[
+             {"id":0,"type":"breakfast",
+             "menuItem":[
+             {"id":1,"itemName":"coffee"}
+             ]}]},
+             {"name":"ML Kitchen","id":3,"rating":5,"address":"730 South May Street",
+             "menuTypes":[]}
+           ]
      
 2. /getRestaurant/{id} - returns single restaurant data having {id}
 
@@ -36,7 +36,7 @@ output:
 6. /addMenuTypeForRestaurant - Adds Menu Types and Menu Items to a Restaurant.
 
 
-Technology Stack Used:
+##Technology Stack Used:
 
  - Spring MVC, Hibernate.
  - JUnit, Mockito - for testing.
@@ -45,7 +45,7 @@ Technology Stack Used:
  - Maven - Build Tool
  
  
- How to Run the Application?
+ ##How to Run the Application?
  
  1. Clone the repo https://github.com/noman-mulla/RestaurantSelector.git
  
@@ -59,7 +59,7 @@ Technology Stack Used:
 Current working version can be accessed via link -> https://restaurantselector.mybluemix.net/  (Deployed on IBM's Bluemix Cloud)
 
 
-Future Work:
+##Future Work:
 1. Add Redis Caching Layer
 2. Add auth0 using Spring Security.
  
