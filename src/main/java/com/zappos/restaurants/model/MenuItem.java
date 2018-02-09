@@ -54,6 +54,8 @@ public class MenuItem {
 	public void setMenuType(Set<MenuType> menuType) {
 		this.menuType = menuType;
 	}
+	
+	
 
 	@Override
 	public String toString() {

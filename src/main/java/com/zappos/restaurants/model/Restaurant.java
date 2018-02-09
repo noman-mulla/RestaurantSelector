@@ -80,6 +80,8 @@ public class Restaurant {
 	public void setMenuTypes(Set<MenuType> menuTypes) {
 		this.menuTypes = menuTypes;
 	}
+	
+	
 
 	@Override
 	public String toString() {

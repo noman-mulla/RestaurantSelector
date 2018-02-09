@@ -39,4 +39,10 @@ public class RestaurantServiceImpl implements RestaurantService{
 		
 	}
 
+	@Override
+	public void addMenuTypeForRestaurant(Restaurant restaurant) {
+		restaurantDao.addMenuTypeForRestaurant(restaurant);
+	}
+
+
 }

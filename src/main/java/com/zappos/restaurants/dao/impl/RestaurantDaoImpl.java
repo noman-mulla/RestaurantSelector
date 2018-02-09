@@ -48,4 +48,10 @@ public class RestaurantDaoImpl implements RestaurantDao{
 		
 	}
 
+
+	@Override
+	public void addMenuTypeForRestaurant(Restaurant restaurant) {
+		getCurrentSession().saveOrUpdate(restaurant);		
+	}
+
 }

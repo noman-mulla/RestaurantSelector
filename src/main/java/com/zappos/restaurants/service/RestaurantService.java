@@ -10,6 +10,7 @@ public interface RestaurantService {
 	public Restaurant getRestaurantById(int id);
 	public void deleteRestaurantById(int id);
 	public void addRestaurant(Restaurant restaurant);
+	public void addMenuTypeForRestaurant(Restaurant restaurant);
 	
 	
 

@@ -6,6 +6,6 @@ import com.zappos.restaurants.model.MenuType;
 
 public interface MenuTypeDao {
 	
-	List<MenuType> getAllMenuType();
+	List<MenuType> getMenuTypesByRestaurantId(int restId);
 
 }
