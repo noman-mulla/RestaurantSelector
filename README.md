@@ -57,6 +57,7 @@
  
  
 Current working version can be accessed via link -> https://restaurantselector.mybluemix.net/  (Deployed on IBM's Bluemix Cloud)
+(If browser shows Error Code 500, just refresh the browser)
 
 
 ## Future Work ##
