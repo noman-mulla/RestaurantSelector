@@ -1,4 +1,4 @@
-##Available endpoints##
+## Available endpoints ##
 
 1. /getRestaurants - returns all restaurants from database
 
@@ -36,7 +36,7 @@
 6. /addMenuTypeForRestaurant - Adds Menu Types and Menu Items to a Restaurant.
 
 
-##Technology Stack Used##
+## Technology Stack Used ##
 
  - Spring MVC, Hibernate.
  - JUnit, Mockito - for testing.
@@ -45,7 +45,7 @@
  - Maven - Build Tool
  
  
- ##How to Run the Application?##
+## How to Run the Application? ##
  
  1. Clone the repo https://github.com/noman-mulla/RestaurantSelector.git
  
@@ -59,7 +59,7 @@
 Current working version can be accessed via link -> https://restaurantselector.mybluemix.net/  (Deployed on IBM's Bluemix Cloud)
 
 
-##Future Work##
+## Future Work ##
 1. Add Redis Caching Layer
 2. Add auth0 using Spring Security.
  
